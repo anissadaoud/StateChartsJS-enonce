@@ -1,23 +1,32 @@
 {
-  "name": "statecharts",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^4.4.5"
-  },
-  "dependencies": {
-    "@statelyai/inspect": "^0.4.0",
-    "dayjs": "^1.11.10",
-    "konva": "^9.2.1",
-    "luxon": "^3.4.3",
-    "moment": "^2.29.4",
-    "xstate": "^5.19.2"
-  }
+    "name": "statecharts",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "start": "vite",
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "vite": "^4.4.5"
+    },
+    "dependencies": {
+        "@statelyai/inspect": "^0.4.0",
+        "dayjs": "^1.11.10",
+        "konva": "^9.3.20",
+        "luxon": "^3.4.3",
+        "moment": "^2.29.4",
+        "statecharts": "file:",
+        "xstate": "^5.19.2"
+    },
+    "description": "stateChartsJS est un projet qui démontre l'utilisation des statecharts en JavaScript.",
+    "main": "syntaxe.js",
+    "directories": {
+        "doc": "doc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }
